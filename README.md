@@ -1,6 +1,6 @@
 # PCB-Design-Application
 # Aim
-
+To design a clap switch circuit diagram
 
 # Software required
 Eagle
@@ -23,40 +23,38 @@ Eagle
 15.Save the generated manufacturing files.</br>
 
 # Theory
-
-
-
-
-
-
-
-
-
-
+theory:This very easy project uses the 555 timer IC which works as a monostable multivibrator Its working principle is based on the electronic microphone. When there is a sound, the microphone catches that sound and sends it to the transistors. Transistors amplify those signals and send them to the 555 timer IC. The IC then drives the load accordingly. Make this circuit on a PCB and control your appliances through just one clap.
 
 ### Working 
+working principal:Sound Detection: The microphone picks up sound signals, including claps.
 
+Signal Amplification: The signal from the microphone is amplified to ensure even quiet sounds are detected.
+
+Signal Processing: The amplified signal is processed to distinguish clap sounds from background noise.
+
+Threshold Comparison: The processed signal is compared to a predefined threshold level.
+
+Switching Action: If the signal exceeds the threshold, indicating a clap, a switching action is triggered to turn a device or light on or off.
+
+Feedback Indication: Optionally, an LED or indicator provides feedback when a clap is detected.
+
+Reset Mechanism: Some designs include a reset mechanism to prevent rapid switching in response to multiple claps.
 
 
 
 
 
 # Circuit Diagram
-
-
+![image](https://github.com/hariharana59/PCB-Design-Application/assets/144980130/23db5b2a-1019-45c2-ab46-a5bc63b8e4fc)
 
 # Output
 
-
-
 ### Schematic diagram
-
-
+![image](https://github.com/hariharana59/PCB-Design-Application/assets/144980130/492d8f93-70cd-4480-a8ca-ad274fd7dbb2)
 
 ### Layout diagram
-
-
+![image](https://github.com/hariharana59/PCB-Design-Application/assets/144980130/ba2a9f9f-c3c8-4137-a7bf-617f86487b43)
 
 # Result
-
+Thus, the clap switch circuit's schmetic diagram and layout diagram is designed successfully by using the Eagle software.
 
